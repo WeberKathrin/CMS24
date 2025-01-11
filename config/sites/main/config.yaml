@@ -1,0 +1,26 @@
+base: 'http://kindl.s2310456029.student.kwmhgb.at/'
+languages:
+  -
+    title: Deutsch
+    enabled: true
+    languageId: 0
+    base: /
+    locale: de_DE
+    navigationTitle: Deutsch
+    flag: de
+    hreflang: de_DE
+    websiteTitle: ''
+  -
+    title: English
+    enabled: true
+    locale: en_US
+    hreflang: en-US
+    base: /en/
+    websiteTitle: ''
+    navigationTitle: ''
+    fallbackType: strict
+    fallbacks: ''
+    flag: us
+    languageId: 1
+rootPageId: 1
+websiteTitle: ''
