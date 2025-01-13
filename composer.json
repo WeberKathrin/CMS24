@@ -43,7 +43,8 @@
 		"jweiland/sync-crop-areas": "^3",
 		"fh-hagenberg/kwm24": "dev-main",
 		"mask/mask": "^8",
-		"georgringer/news": "^11"
+		"georgringer/news": "^11",
+		"in2code/femanager": "8.2"
 	},
 
 	"repositories": [

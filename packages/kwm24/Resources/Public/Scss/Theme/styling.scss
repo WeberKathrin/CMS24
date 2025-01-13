@@ -4,6 +4,30 @@
   background-color: #D4A373;
   height: fit-content;
 }
-.nav-link-text{
-<i class="bi bi-facebook"></i>
+
+//hintergund baige
+.frame-background-primary {
+  --frame-background: #F5F5DC;
+  color: black;
+}
+
+//buttons
+.btn-primary{
+  background-color: #FA8F3B;
+  border-color: #FA8F3B;
+  color: black;
+}
+
+//navigation
+.navbar-mainnavigation .nav-link:not(.nav-link-toggle):before{
+  background-color:#FA8F3B;
+}
+
+//header
+#frame-backgroundimage-c2{
+  height: 150px;
+}
+
+.frame-backgroundimage-container{
+  height: 150px;
 }
