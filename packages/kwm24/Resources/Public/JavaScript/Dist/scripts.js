@@ -1,11 +1,11 @@
 const swiper = new Swiper('.swiper', {
-    autoplay: {
-        delay: 10000,
-    },
+
     // Optional parameters
-    slidesPerView: 1,
+    centeredSlides: true,
+    slidesPerView: 3,
     spaceBetween: 10,
     loop: true,
+
 
     // Coverflow Effect Parameters
     effect: 'coverflow', // Aktiviert den Coverflow-Effekt
