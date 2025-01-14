@@ -7,17 +7,6 @@ const swiper = new Swiper('.swiper', {
     loop: true,
 
 
-    // Coverflow Effect Parameters
-    effect: 'coverflow', // Aktiviert den Coverflow-Effekt
-    coverflowEffect: {
-        depth: 100, // Tiefe des Effekts (Z-Achse)
-        modifier: 1, // Effektmodifikator (Steuert die Intensität des Effekts)
-        rotate: 50, // Drehung der Slides in Grad
-        scale: 1, // Skalierung der Slides
-        slideShadows: true, // Aktiviert die Schatten der Slides
-        stretch: 0, // Abstand zwischen den Slides
-    },
-
     // Wenn du eine Pagination benötigst
     pagination: {
         el: '.swiper-pagination',
