@@ -5,9 +5,10 @@
     </div>
 </f:if>
 
-<f:if condition="{theme.socialmedia.enable}">
-    <div class="footer-sociallinks">
-        <f:render partial="Structure/SocialLinks" arguments="{_all}" />
+
+<f:if condition="{theme.language.enable}">
+    <div class="footer-language">
+        <f:render partial="Navigation/Language" arguments="{_all}" />
     </div>
 </f:if>
 </html>
