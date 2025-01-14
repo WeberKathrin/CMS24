@@ -9,11 +9,11 @@
 ############
 page {
     logo {
-        file = EXT:kwm24/Resources/Public/Images/logo.svg
-        fileInverted = EXT:kwm24/Resources/Public/Images/logo-inverted.svg
+        file = EXT:kwm24/Resources/Public/Images/logo.png
+        fileInverted = EXT:kwm24/Resources/Public/Images/logo-inverted.png
         height = 52
         width = 192
-        alt = kwm24
+        alt = Logo WoodByKindl
         linktitle = kwm24
     }
     favicon {

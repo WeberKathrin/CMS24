@@ -50,8 +50,16 @@
 
 
 
-
+//Produkte text
 .frame-inner{
   color: black;
 }
 
+.textpic-item textpic-gallery {
+  width: 50px;
+  height: auto;
+}
+
+.frame a[class="list-group-item"], .frame a:not([class]) {
+  color: #FA8F3B;
+}
