@@ -8,11 +8,14 @@
 // Import needed Bootstrap Package Files
 //
 @import "EXT:bootstrap_package/Resources/Public/Scss/bootstrap5/theme";
-@import "cards";
+@import "footer";
+@import "allgemein";
+@import "download";
 
-@import "styling";
+@import "news";
 
-@import "slider";
+@import "slider1";
+
 #page-header {
   background-color: white !important;
 }

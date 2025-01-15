@@ -53,27 +53,36 @@
   opacity: 1; /* Aktive Bullet vollständig sichtbar */
 }
 
-/* Styling für die Navigation Pfeile außerhalb der Bilder und schwarz */
+/* Styling für die Navigation Pfeile außerhalb der Bilder */
 .swiper-button-next,
 .swiper-button-prev {
-  color: #000; /* Schwarze Farbe für Pfeile */
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   z-index: 20;
-  background-color: transparent; /* Optional, um Hintergrund transparent zu machen */
+
 }
 
 .swiper-button-next {
-  right: 10px; /* Position des "next" Buttons rechts */
+  right: 10px;
 }
 
 .swiper-button-prev {
-  left: 10px; /* Position des "prev" Buttons links */
+  left: 10px;
 }
 
-/* Optional: Hover-Effekt für die Pfeile */
+//Hover-Effekt für die Pfeile
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-  color: #333; /* Etwas hellere Farbe bei Hover*/
+  color: gray;
+}
+
+//slider
+.swiper-button-next, .swiper-button-prev {
+  --swiper-navigation-color: #FA8F3B;
+}
+
+.swiper-pagination-bullet-active{
+  --swiper-pagination-color: #FA8F3B;
+  --swiper-pagination-bullet-opacity: 1;
 }

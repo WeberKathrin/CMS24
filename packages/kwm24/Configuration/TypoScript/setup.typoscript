@@ -11,6 +11,7 @@ page {
     includeCSS {
         swiper = https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css
         theme = EXT:kwm24/Resources/Public/Scss/Theme/theme.scss
+        fontAwesome = EXT:deine_extension/Resources/Public/Css/fontawesome.css
     }
 
     includeJSLibs {
@@ -42,3 +43,4 @@ lib.maskContentElement {
         5 = EXT:bootstrap_package/Resources/Private/Layouts/ContentElements
     }
 }
+
