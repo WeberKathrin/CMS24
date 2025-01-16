@@ -1,5 +1,4 @@
-//downloadbutton
-/* Container */
+//download
 .download-container {
   text-align: center;
   margin: 30px auto;
@@ -10,16 +9,15 @@
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Textbereich */
+//Text
 .discount-text {
   font-size: 20px;
-  color: #444;
+  color: black;
   font-weight: bold;
   margin-bottom: 15px;
-  font-family: 'Arial', sans-serif;
 }
 
-/* Bild und Beschreibung */
+//Bild und Beschreibung
 .image-wrapper {
   margin-bottom: 20px;
 }
@@ -37,7 +35,7 @@
   margin-top: 5px;
 }
 
-/* Download-Button */
+//download button
 .download-button {
   display: inline-block;
   padding: 12px 25px;
@@ -51,6 +49,8 @@
   transition: all 0.3s ease;
   cursor: pointer;
 }
+
+//hover Effekt
 .download-button:hover {
   background: linear-gradient(145deg, #ff7f3f, #e0661d);
   transform: translateY(-3px);

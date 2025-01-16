@@ -8,19 +8,17 @@
             <div class="swiper-wrapper">
                 <f:for each="{data.tx_mask_slider}" as="data_item">
                     <div class="swiper-slide">
-                        <!-- Iteriere durch die Bilder in jedem Slide -->
+                        <!-- Bilder in jedem Slide -->
                         <f:for each="{data_item.tx_mask_image}" as="file">
                             <!-- Bild einfügen -->
                             <f:media file="{file}" width="300"/>
-                            <!-- Beschreibung einfügen -->
-                            {file.description}
                         </f:for>
                     </div>
                 </f:for>
             </div>
-            <!-- Pagination -->
+            <!-- Pagination (Punkte unten)-->
             <div class="swiper-pagination"></div>
-            <!-- Navigation -->
+            <!-- Navigationspfeile -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>

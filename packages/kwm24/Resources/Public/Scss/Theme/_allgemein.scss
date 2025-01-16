@@ -1,4 +1,4 @@
-//hintergund beige
+//hintergundabteile beige
 .frame-background-primary {
   --frame-background: #F5F5DC;
   color: black;
@@ -12,28 +12,13 @@
 }
 
 
-
 //links
 .frame a[class=""], .frame a:not([class]){
   color: #FA8F3B;
   font-weight: bolder;
 }
 
-
 //innerframe
 .frame-inner{
   color: black;
-}
-
-
-//hintergrundbild kontakt
-#frame-backgroundimage-c24 {
-  height: 500px;
-  width: 800px;
-  align-content: center;
-}
-
-.frame-backgroundimage frame-backgroundimage-behaviour-cover{
-  height: 500px;
-  align-content: center;
 }

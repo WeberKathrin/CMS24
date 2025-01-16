@@ -7,18 +7,18 @@ const swiper = new Swiper('.swiper', {
     loop: true,
 
 
-    // Wenn du eine Pagination benötigst
+    // Pagination
     pagination: {
         el: '.swiper-pagination',
     },
 
-    // Navigation arrows
+    // Navigation pfeile
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
 
-    // Falls du eine Scrollbar benötigst
+    // Scrollbar
     scrollbar: {
         el: '.swiper-scrollbar',
     },

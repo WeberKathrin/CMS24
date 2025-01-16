@@ -10,20 +10,20 @@
             <!-- Bilder -->
             <f:if condition="{data.tx_mask_image}">
                 <f:for each="{data.tx_mask_image}" as="file">
-                    <!-- Responsives Grid-Element -->
+                    <!-- Grid-Element -->
                     <div class="col-12 col-sm-6 col-md-4 mb-4">
                         <div class="image">
                             <!-- Bildvorschau -->
                             <f:image image="{file}" class="img-fluid" />
 
-                            <!-- Titel (falls vorhanden) -->
+                            <!-- Titel -->
                             <div>
                                 <f:if condition="{file.title}">
                                     <h3 class="downloadheader">{file.title}</h3>
                                 </f:if>
                             </div>
 
-                            <!-- Downloadbutton -->
+                            <!-- Download button -->
                             <div class="download">
                                 <a href="{file.publicUrl}"
                                    title="Download {file.properties.title}"

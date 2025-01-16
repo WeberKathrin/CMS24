@@ -9,12 +9,14 @@
 ##############
 page {
     includeCSS {
+        //Link zur Swiper CSS library
         swiper = https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css
+        //theme.scss eingebunden
         theme = EXT:kwm24/Resources/Public/Scss/Theme/theme.scss
-        fontAwesome = EXT:deine_extension/Resources/Public/Css/fontawesome.css
     }
 
     includeJSLibs {
+        //Link zur jQuery library
         jQuery = https://code.jquery.com/jquery-3.6.0.min.js
     }
 
