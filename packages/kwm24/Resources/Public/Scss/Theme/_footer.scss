@@ -3,14 +3,9 @@
   height: fit-content;
 }
 
-.footer-copyright {
-  background-color: #D4A373;
-}
-
 .footer-section-content{
   background-color: #D4A373;
 }
-
 
 .language-menu{
   background-color: #D4A373;
@@ -18,15 +13,20 @@
   padding-left: 5px;
 }
 
-.footer-language{
-  max-width: 1248px;
-  background-color: #D4A373;
-  text-align: center;
-
-}
-
 //Social Media
 .social-links{
   padding-right: 150px;
   background-color: #D4A373;
+}
+
+//Copyright
+.footer-copyright {
+  background-color: #D4A373;
+}
+
+//Sprache
+.footer-language{
+  max-width: 1248px;
+  background-color: #D4A373;
+  text-align: center;
 }

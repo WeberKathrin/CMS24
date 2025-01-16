@@ -1,0 +1,43 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+<f:section name="Main">
+
+    <!-- Grid Container für die Downloads -->
+    <h2 class="downloads-header">{data.tx_mask_text}</h2>
+
+    <div class="img-download-section">
+        <div class="row">
+            <!-- Bilder -->
+            <f:if condition="{data.tx_mask_image}">
+                <f:for each="{data.tx_mask_image}" as="file">
+                    <!-- Responsives Grid-Element -->
+                    <div class="col-12 col-sm-6 col-md-4 mb-4">
+                        <div class="image">
+                            <!-- Bildvorschau -->
+                            <f:image image="{file}" class="img-fluid" />
+
+                            <!-- Titel (falls vorhanden) -->
+                            <div>
+                                <f:if condition="{file.title}">
+                                    <h3 class="downloadheader">{file.title}</h3>
+                                </f:if>
+                            </div>
+
+                            <!-- Downloadbutton -->
+                            <div class="download">
+                                <a href="{file.publicUrl}"
+                                   title="Download {file.properties.title}"
+                                   class="btn btn-primary btn-img-download"
+                                   download>
+                                    Download
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </f:for>
+            </f:if>
+        </div>
+    </div>
+
+</f:section>
+</html>
